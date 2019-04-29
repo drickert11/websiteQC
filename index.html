@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Quantum Computers</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<link href="bxslider/jquery.bxslider.css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="bxslider/jquery.bxslider.js"></script>
+	<script src="index.js"></script>
+</head>
+
+
+<body>
+	<header>
+	<!-- menu bar -->
+		<div class="navigation" id="nav"> 
+		<ul>
+			<li><a class="active" href="index.html">Home</a></li>
+			<li><a class="inactive" href="software.html">Software</a></li>
+			<li><a class="inactive" href="hardware.html">Hardware</a></li>
+			<li><a class="inactive" href="history.html">History</a></li>
+			<li><a class="inactive" href="resources.html">Resources</a></li>
+			<li><a class="inactive" href="message.html">Message Board</a></li>
+			<li><a class="inactive" href="login.html">Login</a></li>
+		</ul>
+		</div>
+	
+	<!-- header text -->
+		<div class="topInfo">
+			<h1>Quantum Computing:</h1>
+			<h2>Home</h2>
+		    <br>
+		</div>
+	</header>
+
+
+	<main>
+		<!-- content of the page -->
+		<!--slider-->
+		<div class="info" id="info">
+		<div id="slider"></div>
+        <p id="pager"></p>
+
+			<p class="infop">Welcome to the world of Quantum Computing. Here you will find an introduction to Quantum Computers
+			As you explore the site you will discover and leran about aspects of what makes a quantum computer as well
+			as the software logic behind them and how they differ from the computers you use today. Not many people know
+			what Qauntum Computers are and this site aims to help change that as these machines are going to have an impact
+			are going to have a great impact on humanity.So, that being said, where should you start? The anwser to that is
+			anywhere you like! This site is sectioned off into four major areas.<p>
+		
+		<!--layout of the site, starting with software page-->	
+		<h3><a href="software.html">The Software of Quantum Computing</a></h3>	
+			<p class="infop">For the software of Quantum Computing we will explore the logical decision making which goes behind the software
+			and the differences between the bit and the qubit, which is the bit version for the quantum computer. </p>
+			<!--Image-->
+			<figure>
+				<img src="qubit.jpg">
+				<figcaption>The Qubit. Image from <a href="https://www.zmescience.com/research/qubits-in-semiconductor-27032012/">Source</a></figcaption>
+			</figure>
+		
+		<!--info on the hardware page-->
+		<h3><a href="Hardware.html">The Hardware of Quantum Computing</a></h3>
+			<p class="infop">On the Hardware page for Quantum Computing we explore some of the different ways quantum computers are built today</p>
+			<!--image-->
+			<figure>
+				<img src="d-wave.jpg">
+				<figcaption>D-Wave's Quantum Computers. Image from <a href="https://www.ibtimes.co.uk/d-wave-worlds-most-powerful-commercial-quantum-computer-set-release-march-2015-1486184">Source</a></figcaption>
+			</figure>
+		
+		<!-- info on the history page-->	
+		<h3><a href="History.html">The History of Quantum Computing</a></h3>
+			<p class="infop">The History of Quantum Computing is brief, but important. On this page we will explore the history of quantum computing
+			and how it came about.</p>
+			
+		<!-- info on the resources page-->	
+		<h3><a href="resources.html">The Resources of Quantum Computing</a></h3>
+			<p class="infop">There a lot of more place to continue your learning as well as try out a quantum computer for free. On this page you can
+			find some place to chack out and continue on your journey.</p>
+			
+		<!-- info on the messages page-->	
+		<h3><a href="messages.html">The Community of Quantum Computing</a></h3>	
+			<p class="infop">Want to meet other people with interest in this area, or simply leave some feedback? You can head over to the message boards
+			and chat with others.</p>
+			
+		<h3><a href="login.html">Login Here</a></h3>	
+			<p class="infop">The Message Board has a login page you can check out.</p>
+		
+		<!--Using Ajax this will be updated for the quiz -->	
+		<br><br>
+		<h3>Test your knowledge</h3>
+		<p>May need to double click.</p>
+		<input class="button" name="reload" id="reload" type="button" value="Click here for a random question!"/>
+		<div id="quiz"></div>
+		</div>
+		
+	</main>
+	
+	<footer>
+	<!--footer and citation for the background image-->
+		<div class="foot">
+			<p>Background image for the page comes from </p><a href="https://www.nanalyze.com/2015/01/investing-in-quantum-computing-with-tiny-and-d-wave/">here.</a>
+			<p>If you need to contact support you can do so at drickert@uncc.edu</p>
+		</div>	
+	<!-- To be added: scroll to top function -->
+	</footer>
+</body>
+
+</html>

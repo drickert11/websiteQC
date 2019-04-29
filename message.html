@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Quantum Computers</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+
+<body>
+	<header>
+	<!-- menu bar -->
+		<div class="navigation"> 
+		<ul>
+			<li><a class="inactive" href="index.html">Home</a></li>
+			<li><a class="inactive" href="software.html">Software</a></li>
+			<li><a class="inactive" href="hardware.html">Hardware</a></li>
+			<li><a class="inactive" href="history.html">History</a></li>
+			<li><a class="inactive" href="resources.html">Resources</a></li>
+			<li><a class="active" href="message.html">Message Board</a></li>
+			<li><a class="inactive" href="login.html">Login</a></li>
+		</ul>
+		</div>
+	
+	<!-- header text -->
+		<div class="topInfo">
+			<h1>Quantum Computing:</h1>
+			<h2>Message Board</h2>
+		    <br>
+		</div>
+	</header>
+	
+	<main>
+	<div class="info">
+		<h3>Message Board</h3>	
+			<p>Contents of this will be a message board where people can log in, or continue as Anonymous, and post messages.</p>
+			<br>
+		<!--Button to go to the login page-->
+		<form action="#" method="post">
+			<label for="goLog">Click here to go the Login page!</label><br>
+			<input class="button" name="goLog" id="goLog" type="button" value="Login" onclick="window.location.href='login.html'" />
+			<br>
+		</form>
+		<!--Message Boards. To be added: more functionality, a previously displayed comment section.-->		
+		<form action="#" method="post">
+			<br>
+			<label for="comment">Post a comment as Anonymous:</label>
+			<br>
+			<textarea id="comment" name="comment" rows="4" cols="50"></textarea>
+			<br>
+			<input class="button" type="submit" value="submit">
+			<br>
+		</form>
+		
+
+		
+	</div>
+	</main>
+	<footer>
+		<div class="foot">
+			<p>Background image for the page comes from </p><a href="https://www.nanalyze.com/2015/01/investing-in-quantum-computing-with-tiny-and-d-wave/">here.</a>
+			<p>If you need to contact support you can do so at drickert@uncc.edu</p>
+		</div>	
+	<!-- To be added: scroll to top function -->
+	</footer>
+</body>
+</html>

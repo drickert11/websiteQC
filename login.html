@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Quantum Computers</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script src="parsley/parsley.min.js"></script>
+	<script src="login.js"></script>
+</head>
+
+
+<body>
+	<header>
+	<!-- menu bar -->
+		<div class="navigation"> 
+		<ul>
+			<li><a class="inactive" href="index.html">Home</a></li>
+			<li><a class="inactive" href="software.html">Software</a></li>
+			<li><a class="inactive" href="hardware.html">Hardware</a></li>
+			<li><a class="inactive" href="history.html">History</a></li>
+			<li><a class="inactive" href="resources.html">Resources</a></li>
+			<li><a class="inactive" href="message.html">Message Board</a></li>
+			<li><a class="active" href="login.html">Login</a></li>
+		</ul>
+		</div>
+	
+	<!-- header text -->
+		<div class="topInfo">
+			<h1>Quantum Computing:</h1>
+			<h2>Login</h2>
+		    <br>
+		</div>
+	</header>
+	
+	<main>
+	<div class="info">
+		<h3>Login</h3>	
+			<p>Please login here for the message boards.</p>
+		<!--Form to login-->
+		<!--Will add more validation and functionality-->
+		<form class="log" action="#" method="post">
+			<br>
+			<label for="username1">Username: </label>
+			<input type="text" name="username1" id="username1" placeholder="Enter Username" size="20" required><br>
+			<br>
+			<label for="password1">Password: </label>
+			<input type="text" name="password1" id="password1" placeholder="Enter Password" size="20" required><br>
+			<br>
+			<input class="button" type="submit" value="Submit">
+		</form>
+		<p>If you do not have an account, you can make one below.</p>
+		<br><br>
+		<!-- Form to sign up-->
+		<h3>Sign Up</h3>
+		<form class="log" action="#" method="post">
+		<br>
+			<label for="username2">Username: </label>
+			<input type="text" name="username2" id="username2" placeholder="Enter Username" size="20" required><br>
+			<br>
+			<label for="password2">Password: </label>
+			<input type="text" name="password2" id="password2" placeholder="Enter Password" size="20" required><br>
+			<br>		
+			<label for="confirmPassword">Confirm Password: </label>
+			<input type="text" name="confirmPassword" id="confirmPassword" placeholder="Enter Password Again" size="20" required><br>
+			<br>
+			<label for="email">Email: </label>
+			<input type="email" name="email" id="email" placeholder="Enter Email" size="20" required><br>
+			<br>
+			<input class="button" type="submit" value="Submit">
+		</form>
+		<!--button to go back to the message boards-->
+		<form action="#" method="post">
+			<br>
+			<label for="back">Click Here to go back to the Message Board</label>
+			<br><br>
+			<input class="button" name="back" id="back" type="button" value="Message Board" onclick="window.location.href='message.html'" />
+		</form>
+		
+	</div>
+	</main>
+	<footer>
+		<div class="foot">
+			<p>Background image for the page comes from </p><a href="https://www.nanalyze.com/2015/01/investing-in-quantum-computing-with-tiny-and-d-wave/">here.</a>
+			<p>If you need to contact support you can do so at drickert@uncc.edu</p>
+		</div>	
+	<!-- To be added: scroll to top function -->
+	</footer>
+</body>
+</html>

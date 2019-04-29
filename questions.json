@@ -1,0 +1,57 @@
+{"questions":[
+	{
+		"Section":"Software",
+		"Question":"When did we we first see the birth and development of Modern Physics?",
+		"Answer":"In the early 20th cnetury"
+	},
+	{
+		"Section":"Software",
+		"Question":"What is the Quantum Computer's version of a bit called?",
+		"Answer":"A Qubit"
+	},
+	{
+		"Section":"Software",
+		"Question":"What state can a qubit hold?",
+		"Answer":"A 1, 0, or both!"
+	},
+	{
+		"Section":"Software",
+		"Question":"What algorithm can qauntum computers potentially use to break modern day encryptions?",
+		"Answer":"Shor's Algorithm"
+	},
+	{
+		"Section":"Hardware",
+		"Question":"What was the conceptual machine behind the classical computer called?",
+		"Answer":"The Turing maching, designed by Alan Turing."
+	},
+	{
+		"Section":"Hardware",
+		"Question":"What is the biggest issue often faced when building a quantum computer?",
+		"Answer":"The superposition of both states collapsing due to decoherence."
+	},
+	{
+		"Section":"Hardware",
+		"Question":"To what temperatures are some quantum computers cooled to, so they can perform their calculations?",
+		"Answer":"To near 0 degress kelvin, which colder than deep space!"
+	},
+	{
+		"Section":"History",
+		"Question":"Which famous scientist proved that quantum systems cannot be simulated with classical computers?",
+		"Answer":"Richard Feynman"
+	},
+	{
+		"Section":"History",
+		"Question":"What year did Peter Shor develop the famous Shor's algorithm?",
+		"Answer":"1994"
+	},
+	{
+		"Section":"History",
+		"Question":"What year did D-Wave form?",
+		"Answer":"1999"
+	},
+	{
+		"Section":"History",
+		"Question":"Who first proposed the idea of a quantum computer?",
+		"Answer":"Paul Benioff"
+	}
+]}
